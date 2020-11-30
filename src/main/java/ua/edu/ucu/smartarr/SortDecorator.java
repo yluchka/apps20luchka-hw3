@@ -18,8 +18,8 @@ public class SortDecorator extends SmartArrayDecorator {
     @Override
     public Object[] toArray() {
         Object[] oldArray = smartArray.toArray();
-        this.result = Arrays.stream(oldArray).sorted(myComparator).toArray();
-        return result;
+        result = Arrays.stream(oldArray).sorted(myComparator).toArray();
+        return result.clone();
     }
 
     @Override

@@ -21,7 +21,8 @@ public class DistinctDecorator extends SmartArrayDecorator {
 
     @Override
     public String operationDescription() {
-        return "Distinct Decorator that removes the duplicates from the SmartArray";
+        return "Distinct Decorator that removes the duplicates from" +
+                "the SmartArray";
     }
 
     @Override

@@ -18,7 +18,7 @@ public class FilterDecorator extends SmartArrayDecorator {
     public Object[] toArray() {
         Object[] oldArray = smartArray.toArray();
         result = Arrays.stream(oldArray).filter(predicate::test).toArray();
-        return result;
+        return result.clone();
     }
 
     @Override
