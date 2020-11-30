@@ -6,7 +6,7 @@ public class BaseArray implements SmartArray {
     private Object[] arr;
 
     public BaseArray(Object[] arrayNew) {
-        this.arr = arrayNew;
+        arr = arrayNew;
     }
 
     @Override
