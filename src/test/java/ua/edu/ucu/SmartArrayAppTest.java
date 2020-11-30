@@ -36,5 +36,6 @@ public class SmartArrayAppTest {
         String[] expectedStudentNames = {"Borek Tomasz", "Kranga Antons", "Sutter Burr"};
 
         assertArrayEquals(expectedStudentNames, studentNames);
+
     }
 }
